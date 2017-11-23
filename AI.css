@@ -1,0 +1,55 @@
+body {
+	text-align:center;
+	background-image:url("footer_lodyas.png");
+	color:white;
+	font-family: 'Kreon', serif;
+}
+
+#canvas {
+	display:block;
+	margin-right:40%;
+	margin-left:auto;
+	background-color:white;
+	border:2px solid black;
+}
+
+#chatbox {
+	position:absolute;
+	display:block;
+	width:400px;
+	margin-right:auto;
+	margin-left:60%;
+	margin-top:0%;
+	border:2px solid black;
+}
+
+#learnbox {
+	position:absolute;
+	display:block;
+	width:400px;
+	height:289px;
+	margin-right:auto;
+	margin-left:60%;
+	margin-top:20.8%;
+	border:2px solid black;
+}
+
+#LearnedDiv {
+	position:absolute;
+	height: 250px;
+	width: 250px;
+	overflow: auto;
+	margin-left:85%;
+	margin-top:20.8%;
+	border:2px solid black;
+}
+
+#Faces {
+	position:absolute;
+	height: 250px;
+	width: 250px;
+	overflow: auto;
+	margin-left:85%;
+	margin-top:0%;
+	border:2px solid black;
+}

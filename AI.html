@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+	<title>Zero</title>
+	<link rel="stylesheet" type="text/css" href="AI.css">
+	<link href='https://fonts.googleapis.com/css?family=Kreon' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="AI.js"></script>
+</head>
+<body>
+	<div id="content">
+		<div id="chatbox">
+			<h1>ChatBox</h1>
+			<input id="chatinput" type="text" value=""><br>
+			<input type="submit" value="Submit" style="visibility:hidden;">
+			<p id="you"></p>
+			<p id="ai"></p>
+		</div>
+		<div id="learnbox">
+			<h1>LearnBox</h1>
+			Question: <input id="askinput" type="text" value=""><br>
+			Answer: <input id="answerinput" type="text" value=""><br>
+			<input type="submit" value="Submit" style="visibility:hidden;">
+			<p id="you"></p>
+			<p id="ai"></p>
+			<input id="learnedlist" type="submit" value="List">
+		</div>
+		<div id="Faces">
+			<h4>Faces</h4>
+			Happy: <input id="happy_emotion" type="submit" value="Happy"><br>
+			Neutral: <input id="neutral_emotion" type="submit" value="Neutral"><br>
+			Sad: <input id="sad_emotion" type="submit" value="Sad"><br>
+		</div>
+		<div id="LearnedDiv"><h4 id="LearnedDivKopje">Learned Words List</h4></div>
+		<canvas width="1000" height="800" id="canvas"></canvas>
+
+	</div>
+
+</body>
+</html>

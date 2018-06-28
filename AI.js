@@ -55,7 +55,7 @@ function StartUp() {
 	ctx.clearRect(0, 0, canvas.width, canvas.height);
 	ZeroStats();
 	MakeZero();
-	document.getElementById("happy_emotion").addEventListener("click", StartHappyEmotion);
+	//document.getElementById("happy_emotion").addEventListener("click", StartHappyEmotion);
 	
 	// Date
 	var d = new Date();
